@@ -1,0 +1,77 @@
+#noteContainer {
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;           
+    flex-wrap: wrap;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.note {
+    position: relative;
+    background-image: url('img/stickyNote.png');
+    background-size: cover;
+    padding: 70px 30px 10px 30px;       
+    width: 250px;
+    height: 200px;    
+    text-wrap: wrap;
+}
+.delete-button {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.delete-button img {
+    width: 20px;
+    height: 20px;
+}
+.crossed-out {
+    text-decoration: line-through;
+}
+.btn, #resetButton {    
+    font-size: 1.2rem;    
+    padding: 5px 10px;    
+    margin: 5px 5px;
+    border-radius: 30px;
+    border-color: green;
+    width: 120px;
+}
+.btn:hover {
+    background-color: lightgreen;
+}
+#resetButton:hover {
+    background-color: lightcoral;
+}
+#resetButton {
+    border-color: darkred;
+}
+.inputStyle {
+    min-width: 70vw;
+    height: 2rem;
+    font-size: 1.2rem;
+    margin: 5px 5px;
+}
+form {
+    width: 100%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (max-width: 600px) {
+    form {
+        flex-direction: column; 
+    }
+    .btn, #resetButton {
+        width: 100%; 
+        margin-top: 10px; 
+    }
+    #buttons {
+        display: flex;
+        justify-content: space-between; 
+        width: 300px;
+    }
+}
