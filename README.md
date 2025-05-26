@@ -22,13 +22,13 @@
 
 ## 📁 Project Structure
 
-sticky_notes/
-├── index.html # Main HTML structure
-├── styles.css # Styling for the app
-├── script.js # JavaScript logic
-├── img/
-│ └── stickyNote.png # Sticky note background image
-└── README.md # Project documentation
+    sticky_notes/
+    ├── index.html # Main HTML structure
+    ├── styles.css # Styling for the app
+    ├── script.js # JavaScript logic
+    ├── img/
+    │ └── stickyNote.png # Sticky note background image
+    └── README.md # Project documentation
 
 
 ## ⚙️ How It Works
